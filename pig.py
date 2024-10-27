@@ -27,7 +27,7 @@ class PigGame:
         print(f"{player.name}'s total score: {player.score}")
         self.current_player = 1 - self.current_player
 
-    def human_turn(self, player):
+    def human(self, player):
         turn_total = 0
         while True:
             choice = input(f"{player.name}, roll or hold? (r/h): ").lower()
